@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "wolfbeag.balloonsaway.mixin.client",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ExampleClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

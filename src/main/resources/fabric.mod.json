@@ -1,0 +1,44 @@
+{
+	"schemaVersion": 1,
+	"id": "balloons-away",
+	"version": "${version}",
+	"name": "Balloons Away!",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/balloons-away/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"wolfbeag.balloonsaway.BalloonsAway"
+		],
+		"client": [
+			"wolfbeag.balloonsaway.BalloonsAwayClient"
+		],
+		"fabric-datagen": [
+			"wolfbeag.balloonsaway.BalloonsAwayDataGenerator"
+		]
+	},
+	"mixins": [
+		"balloons-away.mixins.json",
+		{
+			"config": "balloons-away.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.21-",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
