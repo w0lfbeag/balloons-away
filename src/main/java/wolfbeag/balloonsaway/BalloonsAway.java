@@ -8,7 +8,7 @@ import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import static wolfbeag.balloonsaway.Moditems.WHITE_BALLOON;
+import static wolfbeag.balloonsaway.Moditems.WHITE_WATER_BALLOON;
 
 public class BalloonsAway implements ModInitializer {
 
@@ -19,7 +19,7 @@ public class BalloonsAway implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		Registry.register(Registries.ITEM, Identifier.of("balloons_away", "white_balloon"), WHITE_BALLOON);
+		Registry.register(Registries.ITEM, Identifier.of("balloons_away", "white_water_balloon"), WHITE_WATER_BALLOON);
 
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
