@@ -9,7 +9,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import static wolfbeag.balloonsaway.ItemGroups.ITEM_GROUP;
-import static wolfbeag.balloonsaway.Moditems.WHITE_WATER_BALLOON;
+import static wolfbeag.balloonsaway.Moditems.*;
 
 public class BalloonsAway implements ModInitializer {
 
@@ -22,6 +22,9 @@ public class BalloonsAway implements ModInitializer {
 	public void onInitialize() {
 		Registry.register(Registries.ITEM, Identifier.of("balloonsaway", "white_water_balloon"), WHITE_WATER_BALLOON);
 		Registry.register(Registries.ITEM_GROUP, Identifier.of("balloonsaway", "balloons_away"), ITEM_GROUP);
+		Registry.register(Registries.ITEM, Identifier.of("balloonsaway", "camel_balloon"), CAMEL_BALLOON);
+		Registry.register(Registries.ITEM, Identifier.of("balloonsaway", "villager_balloon"), VILLAGER_BALLOON);
+		Registry.register(Registries.ITEM, Identifier.of("balloonsaway", "white_balloon"), WHITE_BALLOON);
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.

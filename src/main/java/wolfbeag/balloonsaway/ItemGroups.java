@@ -5,7 +5,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.text.Text;
 
-import static wolfbeag.balloonsaway.Moditems.WHITE_WATER_BALLOON;
+import static wolfbeag.balloonsaway.Moditems.*;
 
 public class ItemGroups {
 
@@ -14,6 +14,9 @@ public class ItemGroups {
             .displayName(Text.translatable("itemGroup.balloonsaway.balloons_away"))
             .entries((context, entries) -> {
                 entries.add(WHITE_WATER_BALLOON);
+                entries.add(WHITE_BALLOON);
+                entries.add(VILLAGER_BALLOON);
+                entries.add(CAMEL_BALLOON);
             })
             .build();
 
