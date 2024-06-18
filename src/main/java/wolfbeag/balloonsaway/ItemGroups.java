@@ -13,10 +13,11 @@ public class ItemGroups {
             .icon(() -> new ItemStack(CAMEL_BALLOON))
             .displayName(Text.translatable("itemGroup.balloonsaway.balloons_away"))
             .entries((context, entries) -> {
-                entries.add(WATER_BALLOON);
                 entries.add(WHITE_BALLOON);
                 entries.add(VILLAGER_BALLOON);
                 entries.add(CAMEL_BALLOON);
+                entries.add(SNIFFER_BALLOON);
+                entries.add(WOLF_BALLOON);
             })
             .build();
 
