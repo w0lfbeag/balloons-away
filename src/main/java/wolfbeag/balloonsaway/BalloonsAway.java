@@ -2,10 +2,6 @@ package wolfbeag.balloonsaway;
 
 import net.fabricmc.api.ModInitializer;
 
-import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityTypeBuilder;
-import net.minecraft.entity.EntityDimensions;
-import net.minecraft.entity.EntityType;
-import net.minecraft.entity.SpawnGroup;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
@@ -16,7 +12,6 @@ import static wolfbeag.balloonsaway.ItemGroups.ITEM_GROUP;
 import static wolfbeag.balloonsaway.items.Moditems.*;
 
 public class BalloonsAway implements ModInitializer {
-	public static final String ModID = "BalloonsAway";
 
 
 	// This logger is used to write text to the console and the log file.
