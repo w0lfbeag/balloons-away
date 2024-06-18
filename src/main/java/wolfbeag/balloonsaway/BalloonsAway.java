@@ -26,7 +26,6 @@ public class BalloonsAway implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		Registry.register(Registries.ITEM, Identifier.of("balloonsaway", "water_balloon"), WATER_BALLOON);
 		Registry.register(Registries.ITEM_GROUP, Identifier.of("balloonsaway", "balloons_away"), ITEM_GROUP);
 		Registry.register(Registries.ITEM, Identifier.of("balloonsaway", "camel_balloon"), CAMEL_BALLOON);
 		Registry.register(Registries.ITEM, Identifier.of("balloonsaway", "villager_balloon"), VILLAGER_BALLOON);
