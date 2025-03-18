@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "###",
+        " L "
+    ],
+    "key": {
+        "#": {
+            "item": "balloonsaway:rubber"
+        },
+        "L": {
+            "item": "minecraft:lead"
+        }
+    },
+    "result": {
+        "id": "balloonsaway:white_balloon",
+        "count": 1
+    }
+}

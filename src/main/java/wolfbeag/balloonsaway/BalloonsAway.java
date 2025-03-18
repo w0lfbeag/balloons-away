@@ -27,6 +27,8 @@ public class BalloonsAway implements ModInitializer {
 		Registry.register(Registries.ITEM, Identifier.of("balloonsaway", "white_balloon"), WHITE_BALLOON);
 		Registry.register(Registries.ITEM, Identifier.of("balloonsaway", "wolf_balloon"), WOLF_BALLOON);
 		Registry.register(Registries.ITEM, Identifier.of("balloonsaway", "sniffer_balloon"), SNIFFER_BALLOON);
+		Registry.register(Registries.ITEM, Identifier.of("balloonsaway", "frog_balloon"), FROG_BALLOON);
+		Registry.register(Registries.ITEM, Identifier.of("balloonsaway", "rubber"), RUBBER);
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.

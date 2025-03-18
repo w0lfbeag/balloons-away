@@ -11,7 +11,14 @@ base {
 }
 
 repositories {
-    
+	maven {
+		name = "TerraformersMC"
+		url = "https://maven.terraformersmc.com/"
+	}
+	maven {
+		name = "Ladysnake Libs"
+		url = 'https://maven.ladysnake.org/releases'
+	}
 
 	// Add repositories to retrieve artifacts from in here.
 	// You should only use this when depending on other mods because

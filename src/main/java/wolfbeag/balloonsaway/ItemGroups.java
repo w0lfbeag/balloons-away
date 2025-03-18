@@ -18,6 +18,8 @@ public class ItemGroups {
                 entries.add(CAMEL_BALLOON);
                 entries.add(SNIFFER_BALLOON);
                 entries.add(WOLF_BALLOON);
+                entries.add(FROG_BALLOON);
+                entries.add(RUBBER);
             })
             .build();
 
