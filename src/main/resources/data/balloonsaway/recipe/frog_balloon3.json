@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "SBS"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:pearlescent_froglight"
+        },
+        "S": {
+            "item": "minecraft:slime_ball"
+        },
+        "B": {
+            "item": "balloonsaway:white_balloon"
+        }
+    },
+    "result": {
+        "id": "balloonsaway:frog_balloon",
+        "count": 1
+    }
+}
