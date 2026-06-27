@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#",
+        "P",
+        "#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:white_wool"
+        },
+        "P": {
+            "item": "minecraft:paper"
+        }
+    },
+    "result": {
+        "id": "balloonsaway:rubber",
+        "count": 1
+    }
+}

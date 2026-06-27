@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " c ",
+    "cbc"
+  ],
+  "key": {
+    "c": {
+      "item": "balloonsaway:camel_hide"
+    },
+    "B": {
+      "item": "balloonsaway:white_balloon"
+    }
+  },
+  "result": {
+    "id": "balloonsaway:camel_balloon",
+    "count": 1
+  }
+}

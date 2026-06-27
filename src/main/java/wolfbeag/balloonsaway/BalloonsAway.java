@@ -7,6 +7,7 @@ import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import wolfbeag.balloonsaway.util.ModLootTableModifiers;
 
 import static wolfbeag.balloonsaway.ItemGroups.ITEM_GROUP;
 import static wolfbeag.balloonsaway.items.Moditems.*;
@@ -29,6 +30,9 @@ public class BalloonsAway implements ModInitializer {
 		Registry.register(Registries.ITEM, Identifier.of("balloonsaway", "sniffer_balloon"), SNIFFER_BALLOON);
 		Registry.register(Registries.ITEM, Identifier.of("balloonsaway", "frog_balloon"), FROG_BALLOON);
 		Registry.register(Registries.ITEM, Identifier.of("balloonsaway", "rubber"), RUBBER);
+		Registry.register(Registries.ITEM, Identifier.of("balloonsaway", "camel_hide"), CAMEL_HIDE);
+
+		ModLootTableModifiers.modifyLootTables();
 		// This code runs as soon as Minecraft is in a mod-load-ready state.
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " s ",
+    " b "
+  ],
+  "key": {
+    "s": {
+      "item": "minecraft:sniffer_egg"
+    },
+    "B": {
+      "item": "balloonsaway:white_balloon"
+    }
+  },
+  "result": {
+    "id": "balloonsaway:sniffer_balloon",
+    "count": 1
+  }
+}

@@ -20,6 +20,7 @@ public class ItemGroups {
                 entries.add(WOLF_BALLOON);
                 entries.add(FROG_BALLOON);
                 entries.add(RUBBER);
+                entries.add(CAMEL_HIDE);
             })
             .build();
 
